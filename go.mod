@@ -3,7 +3,6 @@ module github.com/sigstore/rekor
 go 1.16
 
 require (
-	cloud.google.com/go/iam v0.3.0 // indirect
 	github.com/AdaLogics/go-fuzz-headers v0.0.0-20211102141018-f7be0cbad29c
 	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d
 	github.com/blang/semver v3.5.1+incompatible
@@ -22,7 +21,7 @@ require (
 	github.com/go-openapi/validate v0.21.0
 	github.com/go-playground/validator/v10 v10.11.0
 	github.com/golang/glog v0.0.0-20210429001901-424d2337a529 // indirect
-	github.com/google/go-cmp v0.5.8
+	github.com/google/go-cmp v0.5.9
 	github.com/google/rpmpack v0.0.0-20210518075352-dc539ef4f2ea
 	github.com/google/trillian v1.4.1
 	github.com/in-toto/in-toto-golang v0.3.4-0.20211211042327-af1f9fb822bf
@@ -51,12 +50,12 @@ require (
 	go.uber.org/zap v1.21.0
 	gocloud.dev v0.24.1-0.20211119014450-028788aaaa4c
 	golang.org/x/crypto v0.0.0-20220411220226-7b82a4e95df4
-	golang.org/x/mod v0.6.0-dev.0.20220106191415-9b9b3d81d5e3
-	golang.org/x/net v0.0.0-20220421235706-1d1ef9303861
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	google.golang.org/genproto v0.0.0-20220422154200-b37d22cd5731
-	google.golang.org/grpc v1.46.0
-	google.golang.org/protobuf v1.28.0
+	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4
+	golang.org/x/net v0.4.0
+	golang.org/x/sync v0.1.0
+	google.golang.org/genproto v0.0.0-20221118155620-16455021b5e6
+	google.golang.org/grpc v1.52.0
+	google.golang.org/protobuf v1.28.1
 	gopkg.in/ini.v1 v1.66.4
 	sigs.k8s.io/release-utils v0.4.1-0.20220207182343-6dadf2228617
 )
